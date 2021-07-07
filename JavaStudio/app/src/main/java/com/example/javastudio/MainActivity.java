@@ -9,7 +9,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     int clickCount = 0;
-
+    //onCreate는 액티비티가 실행될 때 불려지는 Callback 함수이다.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
