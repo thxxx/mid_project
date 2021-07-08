@@ -21,7 +21,6 @@ public class JavaTest {
         pk.setNickname("Apple");
 
         Assert.assertEquals(20, pk.getAge());
-        Assert.assertEquals("john", pk.getName());
         Assert.assertEquals("apple", pk.getNickname());
     }
 }
