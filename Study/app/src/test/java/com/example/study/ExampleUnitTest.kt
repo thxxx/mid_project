@@ -1,7 +1,6 @@
 package com.example.study
 
 import org.junit.Test
-
 import org.junit.Assert.*
 
 /**
@@ -12,6 +11,6 @@ import org.junit.Assert.*
 class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+        assertEquals(4, 2 + 2) // 예측 결과, 실제 결과
     }
 }
