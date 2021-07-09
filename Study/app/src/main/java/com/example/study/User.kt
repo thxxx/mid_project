@@ -15,6 +15,8 @@ class User {
 
     var name:String by Delegates.observable(""){
         property, oldValue, newValue ->
-        println("기존값: ${oldValue}, 새로 적용될 값: $newValue")
+        println("기존값 : ${oldValue}, 새로 적용될 값: $newValue")
+        println("기존값 : ${oldValue}, 새로 적용될 값: $newValue")
+        println("기존값 : ${oldValue}, 새로 적용될 값: $newValue")
     }
 }
