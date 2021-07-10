@@ -1,6 +1,7 @@
 package com.example.lotto
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -15,19 +16,21 @@ class TestActivity : AppCompatActivity() {
             // MainActivity를 시작하는 Intent를 생성한다.
             val intent = Intent(this@TestActivity, MainActivity::class.java)
             // intent 를 사용하여 Activity를 시작한다.
-            println("메인으로 이동")
             startActivity(intent)
         }
 
         findViewById<View>(R.id.button3).setOnClickListener{
             val intent = Intent(this@TestActivity, NameActivity::class.java)
-            println("네임으로 이동")
             startActivity(intent)
         }
 
         findViewById<View>(R.id.button4).setOnClickListener{
             val intent = Intent(this@TestActivity, NameActivity::class.java)
-            println("결과화면으로 이동")
+            startActivity(intent)
+        }
+
+        findViewById<View>(R.id.WEBbutton5).setOnClickListener{
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.naver.com"))
             startActivity(intent)
         }
     }

@@ -19,7 +19,8 @@
         <activity android:name=".ResultActivity" />
         <activity android:name=".NameActivity" />
         <activity android:name=".ConstellationActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:label="복권 생기성">
         </activity>
     </application>
 
