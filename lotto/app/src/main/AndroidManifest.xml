@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ResultActivity" />
+        <activity
+            android:name=".ResultActivity"
+            android:theme="@style/AppTheme.Result" />
         <activity android:name=".NameActivity" />
         <activity android:name=".ConstellationActivity" />
         <activity android:name=".MainActivity"
