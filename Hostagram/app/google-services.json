@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "615691424940",
+    "project_id": "hostagram-f845d",
+    "storage_bucket": "hostagram-f845d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615691424940:android:9dd01c5f7bc457e74a3b09",
+        "android_client_info": {
+          "package_name": "com.example.hostagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615691424940-985nukiquhi13ursv3bhdkoe7cc850kl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKGDNRNdnmBlXell9Kyjq6GBzWs0myjxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615691424940-985nukiquhi13ursv3bhdkoe7cc850kl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
