@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".WriteActivity"
+            android:label="글쓰 activity"/>
     </application>
 
 </manifest>

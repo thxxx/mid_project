@@ -33,12 +33,19 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    viewBinding {
+        enabled = true
+    }
 }
 
 dependencies {
     // Firebase
     implementation platform('com.google.firebase:firebase-bom:28.2.1')
     implementation 'com.google.firebase:firebase-analytics-ktx'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+
 
     // 이미지 로딩 라이브러리
     api 'com.squareup.picasso:picasso:2.71828'
